@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T09:44:54.178Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="WWbCiABo3QGgTZ8Fj9wC" version="15.2.9" type="github" pages="2">
-  <diagram id="haKI7TRJlkWC1d8LD_Nv" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2021-09-22T09:49:11.496Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="BgcddCDZu7xw6mkGoYZR" version="15.2.9" type="github" pages="2">
+  <diagram id="haKI7TRJlkWC1d8LD_Nv" name="initramfs中的systemd">
     <mxGraphModel dx="2622" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -110,7 +110,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="rMdw0xYeOwC8t32MuyJH" name="第 2 页">
+  <diagram id="rMdw0xYeOwC8t32MuyJH" name="系统中的systemd">
     <mxGraphModel dx="1822" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="01f0WHrPKCv0q59qGz9a-0" />
@@ -302,11 +302,14 @@
         <mxCell id="yu-OUCChX8TLgR850PoO-48" value="&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;&lt;span style=&quot;font-family: monospace ; color: rgb(255 , 0 , 0)&quot;&gt;可以使用 systemctl set-default multi-user.target 切换启动的模式&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="01f0WHrPKCv0q59qGz9a-1">
           <mxGeometry x="520" y="232.5" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="yu-OUCChX8TLgR850PoO-49" value="终端模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="01f0WHrPKCv0q59qGz9a-1">
+        <mxCell id="yu-OUCChX8TLgR850PoO-49" value="&lt;b&gt;终端模式&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="01f0WHrPKCv0q59qGz9a-1">
           <mxGeometry x="530" y="385" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="yu-OUCChX8TLgR850PoO-50" value="图形模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="01f0WHrPKCv0q59qGz9a-1">
+        <mxCell id="yu-OUCChX8TLgR850PoO-50" value="&lt;b&gt;图形模式&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="01f0WHrPKCv0q59qGz9a-1">
           <mxGeometry x="240" y="460" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMT-dSkeoc1pVw3ZXORF-0" value="可以通过systemctl&amp;nbsp;list-dependencies&amp;nbsp; &amp;nbsp;xxx，查看各模块的依赖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="01f0WHrPKCv0q59qGz9a-1">
+          <mxGeometry x="530" y="-50" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
