@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T01:24:27.220Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="15.2.9" etag="qEKtLJziXfuoV8UaXQWd" type="github"><diagram id="haKI7TRJlkWC1d8LD_Nv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-22T07:24:34.577Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="EwbNUcLCellR5isw30vO" version="15.2.9" type="github">
+  <diagram id="haKI7TRJlkWC1d8LD_Nv" name="第 1 页">
+    <mxGraphModel dx="2622" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-18" target="_bKZqL0wi3-hsqJOC3Qj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-18" value="lib/systemd/system/default.target -&amp;gt; initrd.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-895.95" y="-420" width="301.88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-19" target="_bKZqL0wi3-hsqJOC3Qj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-19" value="init -&amp;gt; usr/lib/systemd/systemd" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="-420" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-21" target="_bKZqL0wi3-hsqJOC3Qj-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-21" value="basic.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-860" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-22" target="_bKZqL0wi3-hsqJOC3Qj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-22" value="initrd-root-device.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-800" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-25" target="_bKZqL0wi3-hsqJOC3Qj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-25" value="sysroot.mount" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-740" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-26" target="_bKZqL0wi3-hsqJOC3Qj-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-26" value="initrd-root-fs.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-680" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-31" target="_bKZqL0wi3-hsqJOC3Qj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-31" value="initrd-parse-etc.service" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-620" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-32" target="_bKZqL0wi3-hsqJOC3Qj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-32" value="&lt;pre class=&quot;programlisting&quot;&gt;(sysroot-usr.mount 以及 fstab 中带有&lt;/pre&gt;&lt;pre class=&quot;programlisting&quot;&gt; x-initrd.mount标记的各个挂载点)&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-887.51" y="-560" width="285" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-33" target="_bKZqL0wi3-hsqJOC3Qj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-33" value="initrd-fs.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-859.37" y="-480" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-39" target="_bKZqL0wi3-hsqJOC3Qj-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-39" value="sysinit.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="-920" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-40" target="_bKZqL0wi3-hsqJOC3Qj-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-40" value="local_fs_target and&amp;nbsp;&lt;br&gt;swap.target" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-860.01" y="-980" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-44" value="&lt;font color=&quot;#ff0000&quot;&gt;将根文件系统挂载到/sysroot&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="-800" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-45" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;code class=&quot;filename&quot;&gt;initrd-parse-etc.service&lt;/code&gt; 将会分析&lt;br&gt;    &lt;code class=&quot;filename&quot;&gt;/sysroot/etc/fstab&lt;/code&gt; 文件以挂载&lt;br&gt;    &lt;code class=&quot;filename&quot;&gt;/usr&lt;/code&gt; (若需要)&lt;br&gt;    与带有 &lt;span class=&quot;emphasis&quot;&gt;&lt;em&gt;x-initrd.mount&lt;/em&gt;&lt;/span&gt; 标记的挂载点。&lt;br&gt;    所有这些挂载点都将被挂载到 &lt;code class=&quot;filename&quot;&gt;/sysroot&lt;/code&gt; 之下&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-600" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-46" target="_bKZqL0wi3-hsqJOC3Qj-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-46" value="&lt;pre class=&quot;programlisting&quot;&gt;initrd-cleanup.service&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-355" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-48" value="&lt;span class=&quot;command&quot;&gt;&lt;strong&gt;使用systemctl --no-block isolate&lt;/strong&gt;&lt;/span&gt; 命令启动&lt;br&gt;    &lt;code class=&quot;filename&quot;&gt;initrd-switch-root.target&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="-355" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-63" target="_bKZqL0wi3-hsqJOC3Qj-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-49" target="_bKZqL0wi3-hsqJOC3Qj-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="initrd-udevadm-cleanup-db.service" link="initrd-udevadm-cleanup-db.service" id="_bKZqL0wi3-hsqJOC3Qj-49">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="-850" y="-290" width="230" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-53" target="_bKZqL0wi3-hsqJOC3Qj-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-53" value="&lt;pre class=&quot;programlisting&quot;&gt;initrd-switch-root.target&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-170" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bKZqL0wi3-hsqJOC3Qj-54" target="_bKZqL0wi3-hsqJOC3Qj-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-54" value="&lt;pre class=&quot;programlisting&quot;&gt;initrd-switch-root.service&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-110" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-58" value="将系统的根目录切换至&lt;br/&gt;    &lt;code class=&quot;filename&quot;&gt;/sysroot&lt;/code&gt; 目录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="-170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bKZqL0wi3-hsqJOC3Qj-59" value="&lt;pre class=&quot;programlisting&quot;&gt;切换到主机的操作系统&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-50" width="230" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="各个自定义的initrd.service ..." link="initrd-udevadm-cleanup-db.service" id="_bKZqL0wi3-hsqJOC3Qj-63">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="-850" y="-230" width="230" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
